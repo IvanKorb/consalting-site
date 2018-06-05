@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>MDIConsalting</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/f1.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#2F2F2F">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#2F2F2F">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#2F2F2F">
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/e7ca3a827c.js"></script>
+    <style>body {
+        opacity: 0;
+        overflow-x: hidden;
+    }
+
+    html {
+        background-color: #2F2F2F;
+    }</style>
+
+
+</head>
+
+<body class="ishome">
+
+<div class="preloader">
+    <div class="pulse">
+        <div class="logo-preloader hidden-xs hidden-sm"><img src="img/log1o.png" alt=""></div>
+    </div>
+</div>
+<div id="my-page">
+    <div id="my-header">
+        <header class="site-header" style="background-image: url(img/office.jpg);">
+
+            <div class="top-line">
+                <div class="logo-line"><a href="#" class="logo"><img src="img/log1o.png"
+                                                                     alt="Консалтинговое агенство DMIImigrtaions"></a>
+                </div>
+
+                <div class="phone  hidden-xs h-c"><i class="fa fa-mobile"></i> +7(778) 750-53-46</div>
+                <a href="#my-menu" class="hamburger hamburger--emphatic">
+						<span class="hamburger-box">
+							<span class="hamburger-inner">
+
+							</span>
+						</span>
+                </a>
+
+                <nav id="my-menu">
+                    <ul>
+                        <li><a href="#my-header">В начало</a></li>
+                        <li><a href="#getCompany">О компании</a></li>
+                        <li><a href="#services">Наши услуги</a></li>
+                        <li class="hidden-xs"><a href="#our-vacancy">Наши вакансии</a></li>
+                        <li><a href="#s-form">Оставить заявку</a></li>
+                        <li><a href="#partners">Наши партнеры</a></li>
+                        <li><a href="#my-footer">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="header-flex w1">
+
+                <div class="flex-center">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-sm-11 col-xs-12">
+
+                                <div class="header-composition">
+
+                                    <div class="welcome">
+                                        <p><span>Добро пожаловать в международное</span></p>
+                                        <h1>Консалтинговое <br> агенство</h1>
+                                        <strong><i class="fa fa-star"></i>в Астане<i class="fa fa-star"></i></strong>
+                                    </div>
+
+                                    <!-- <p><strong>DM Immigration consalting</strong> – Мы являемся международным кадровым агентством, и работаем на прямую с работодателем. Наша компания занимается только легальным трудоустройством по рабочей визе.</p> -->
+                                    <a href="#getCompany" class="button">О компании</a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="header-social hidden-xs">
+            <nav class="soc">
+            <ul>
+            <li><a href="#"><i class="fa fa-skype"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-vk"></i></a></li>
+            </ul>
+            </nav>
+            </div>
+
+
+            <div class="header-contacts">
+                <div class="container h-c">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <i class="fa fa-location-arrow"></i> г.Астана, пр. Победы 72, офис 316
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="phone-h"><i class="fa fa-mobile"></i> +7(778) 750-53-46</div>
+                        </div>
+                        <div class="col-md-4 hidden-xs hidden-sm">
+                            <i class="fa fa-clock-o"></i> Время работы: 10:00 - 18:00
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+    </div>
+
+    <div id="my-content">
+        <section class="s-company inverse section-overlay w1" id="getCompany"
+                 style="background-image: url(img/office1.jpg);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+
+                        <h2 class="h2">О компании</h2>
+                        <p>Почему <strong>MDimmigration</strong> выполняет обещанное? Мы – молодая
+                            амбициозная команда профессионалов, работающая на принципах доверия,
+                            честного выполнения социальной миссии компании – мы с полной ответственностью
+                            помогаем Вам добиться поставленных карьерных и финансовых целей, понимая, что на нашей
+                            ответственности лежит жизненное благосостояние других людей.
+                            Кроме того, работа <strong>MDimmigration</strong> базируется на полноценном ресурсном
+                            фундаменте:
+                            наши контрагенты – проверенные временем и успешным сотрудничеством работодатели и
+                            посредники, давно ставшие партнерами и друзьями. Наши информационные базы охватывают
+                            вакансии практически всех специализаций и условий трудоустройства.
+                            Будем рады получить Ваш звонок или письмо с вопросами по трудоустройству за границей!
+                            И будьте готовы: очень скоро Вы обретете работу, которая изменит Вашу жизнь к лучшему!</p>
+                        <a href="#s-form" class="button">Оставить заявку</a>
+                    </div>
+                    <div class="col-md7">
+                        <div class="section-gallery fotorama" data-nav="thumbs" data-thumbwidth="110.5"
+                             data-thumbheights="66" data-thumbborderwidth="4"
+                             data-thummargin="10"
+                             data-width="100%" data-loop="true">
+
+                            <img src="img/coutry/small/chech.jpg" alt="Консалтинг сервис">
+                            <img src="img/coutry/small/germany.jpg" alt="Консалтинг сервис">
+                            <img src="img/coutry/small/litva.jpg" alt="Консалтинг сервис">
+                            <img src="img/coutry/small/polska.jpg" alt="Консалтинг сервис">
+                            <img src="img/coutry/small/chech2.jpg" alt="Консалтинг сервис">
+                            <img src="img/coutry/small/germany2.jpg" alt="Консалтинг сервис">
+                            <img src="img/coutry/small/litva2.jpg" alt="Консалтинг сервис">
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="s-review inverse section-overlay" id="services" style="background-image: url(img/bg3.jpg);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="h2 text-center h-first">Мы предлагаем:</h2>
+                    </div>
+                    <div class="col-sm-10 col-sm-offset-2">
+                        <div class="qoutes"></div>
+                        <div class="owl-carousel reviews">
+
+                            <div class="review">
+                                <div class="review-header"><strong>Услуги:</strong></div>
+                                <div class="review-text">
+                                    Полностью готовим весь пакет документов для оформления визы,<br>
+                                    который так же включает в себя:
+                                    <ul>
+                                        <li>Приглашение от работодателя</li>
+                                        <li>Медстраховка на весь период</li>
+                                        <li>Анкета для визового центра</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="review">
+                                <div class="review-header"><strong>С чем мы поможем:</strong></div>
+                                <div class="review-text">
+                                    Оформление всех документов.
+                                    Вакансии в Польше, Чехии, Литве, Германии, Чехии.
+                                    Высылаем рабочие приглашения.
+                                    Оформляем рабочие Визы.
+                                    Подготовка документов в визовый центр.
+                                    Работаем со всеми регионами Украины!
+                                    Если у вас нет возможности подъехать к нам
+                                    в офис - мы так же работаем дистанционно, документы/договора отправляем в любой
+                                    город Казахстана по эл. почте.
+                                    После окончания рабочей визы помогаем с продлением на 1-3 года.
+                                </div>
+                            </div>
+
+                            <div class="review">
+                                <div class="review-header"><strong>Что вы получите:</strong></div>
+                                <div class="review-text">
+                                    Сотрудничая с <strong>MDimmigration</strong>, Вы гарантировано получаете:
+                                    <ul>
+                                        <li>Полную информационную поддержку в процессе трудоустройства</li>
+                                        <li>Консультационное сопровождение</li>
+                                        <li>Помощь в формировании пакета документов, для получения рабочей Визы</li>
+                                        <li>Легальную работу за границей</li>
+                                        <li>Честное предоставление информации о вакансии</li>
+                                        <li>Поддержку после Вашего выезда из Казахстана в страну трудоустройства</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="s-workers inverse section-overlay hidden-xs" id="our-vacancy"
+                 style="background-image: url(img/workers.jpg);">
+
+
+            <div class="continer  ">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="h2 text-center h-first">Наши вакансии:</h2>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-2 table-workers">
+                        <div class="tabs">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="active"><a href="#tab1" class="tabs-color" data-toggle="tab">Германия</a>
+                                </li>
+                                <li><a href="#tab2" class="tabs-color" data-toggle="tab">Чехия</a></li>
+                                <li><a href="#tab3" class="tabs-color" data-toggle="tab">Латвия</a></li>
+                                <li><a href="#tab4" class="tabs-color" data-toggle="tab">Литва</a></li>
+                                <li><a href="#tab5" class="tabs-color" data-toggle="tab">Польша</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="tab1">
+                                    <table class="table table-hover table-bordered">
+                                        <thead>
+                                        <tr class="text-table-head">
+                                            <th>#</th>
+                                            <th>Вакансии</th>
+                                            <th>З/п в час</th>
+                                            <th>Город</th>
+                                            <th>Питание/жильё</th>
+                                            <th>Время работы</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Водитель дальнобойщик</td>
+                                            <td>7000 - 9000 <i class="fa fa-euro"></i></td>
+                                            <td>Гамбург</td>
+                                            <td> - / +</td>
+                                            <td>Кат "CE"</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Сварщик</td>
+                                            <td>10 - 18 <i class="fa fa-euro"></i></td>
+                                            <td>Берлин</td>
+                                            <td> - / +</td>
+                                            <td>10 - 12 ч</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Бетонщик</td>
+                                            <td>10 - 25 <i class="fa fa-euro"></i></td>
+                                            <td>Берлин</td>
+                                            <td> - / +</td>
+                                            <td>10 - 12 ч</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td>Завод (Куриный)</td>
+                                            <td>10 - 22 <i class="fa fa-euro"></i></td>
+                                            <td>Берлин</td>
+                                            <td> + / +</td>
+                                            <td>10 - 12 ч</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">5</th>
+                                            <td>Склад</td>
+                                            <td> 8 - 15 <i class="fa fa-euro"></i></td>
+                                            <td>Берлин</td>
+                                            <td> + / +</td>
+                                            <td>8 - 14 ч</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">6</th>
+                                            <td>Швея</td>
+                                            <td> 8 - 10 <i class="fa fa-euro"></i></td>
+                                            <td>Берлин</td>
+                                            <td> - / +</td>
+                                            <td>8 - 10 ч</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="tab-pane" id="tab2">
+                                    <table class="table table-hover table-bordered">
+                                        <thead class="text-table-head">
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Вакансии</th>
+                                            <th>З/п в час</th>
+                                            <th>Город</th>
+                                            <th>Питание/жильё</th>
+                                            <th>Время работы</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Завод (Куриный)</td>
+                                            <td>10 - 20 <i class="fa fa-euro"></i></td>
+                                            <td>Прага</td>
+                                            <td> - / +</td>
+                                            <td>10 - 12 ч</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Прачечная</td>
+                                            <td>10 - 15 <i class="fa fa-euro"></i></td>
+                                            <td>Бероун</td>
+                                            <td> - / +</td>
+                                            <td>10 - 12 ч</td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Горничная</td>
+                                            <td> 10 - 15 <i class="fa fa-euro"></i></td>
+                                            <td>Прага</td>
+                                            <td> - / +</td>
+                                            <td>12 - 14 ч</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td>Склад</td>
+                                            <td> 8 - 15 <i class="fa fa-euro"></i></td>
+                                            <td>Прага</td>
+                                            <td> - / +</td>
+                                            <td>10 - 12 ч</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">5</th>
+                                            <td>Завод (свиной)</td>
+                                            <td> 10 - 18 <i class="fa fa-euro"></i></td>
+                                            <td>Прага</td>
+                                            <td> + / +</td>
+                                            <td>10 - 12 ч</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="tab-pane" id="tab3">
+                                    <table class="table table-hover table-bordered">
+                                        <thead class="text-table-head">
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Вакансии</th>
+                                            <th>З/п в час</th>
+                                            <th>Город</th>
+                                            <th>Питание/жильё</th>
+                                            <th>Время работы</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Фасадчик</td>
+                                            <td>8 - 10 <i class="fa fa-euro"></i></td>
+                                            <td>Рига</td>
+                                            <td> - / +</td>
+                                            <td>8 - 12 ч</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Каменщик</td>
+                                            <td>10 - 20 <i class="fa fa-euro"></i></td>
+                                            <td>Рига</td>
+                                            <td> - / +</td>
+                                            <td>10 - 12 ч</td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Бетонщик</td>
+                                            <td> 15 - 25 <i class="fa fa-euro"></i></td>
+                                            <td>Рига</td>
+                                            <td> - / +</td>
+                                            <td>10 - 14 ч</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td>Сварщик</td>
+                                            <td> 10 - 18 <i class="fa fa-euro"></i></td>
+                                            <td>Рига</td>
+                                            <td> - / +</td>
+                                            <td>10 - 12 ч</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">5</th>
+                                            <td>Водитель DHL</td>
+                                            <td> 8 - 15 <i class="fa fa-euro"></i></td>
+                                            <td>Рига</td>
+                                            <td> - / +</td>
+                                            <td>Кат. "CE"</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="tab-pane" id="tab4">
+                                    <table class="table table-hover table-bordered">
+                                        <thead class="text-table-head">
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Вакансии</th>
+                                            <th>З/п в час</th>
+                                            <th>Город</th>
+                                            <th>Питание/жильё</th>
+                                            <th>Время работы</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Разнорабочий</td>
+                                            <td>5 - 10 <i class="fa fa-euro"></i></td>
+                                            <td>Вильнюс</td>
+                                            <td> - / +</td>
+                                            <td>10 - 12 ч</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Швея</td>
+                                            <td>5 - 12 <i class="fa fa-euro"></i></td>
+                                            <td>Вильнюс</td>
+                                            <td> - / +</td>
+                                            <td>8 - 10 ч</td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Завод (свинной)</td>
+                                            <td> 10 - 15 <i class="fa fa-euro"></i></td>
+                                            <td>Вильнюс</td>
+                                            <td> + / +</td>
+                                            <td>10 - 12 ч</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Фасадчик</td>
+                                            <td>10 - 12 <i class="fa fa-euro"></i></td>
+                                            <td>Вильнюс</td>
+                                            <td> + / +</td>
+                                            <td>10 - 12 ч</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="tab-pane" id="tab5">
+                                    <table class="table table-hover table-bordered">
+                                        <thead class="text-table-head">
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Вакансии</th>
+                                            <th>З/п в час</th>
+                                            <th>Город</th>
+                                            <th>Питание/жильё</th>
+                                            <th>Время работы</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Сварщик</td>
+                                            <td>15 - 18 <i class="fa fa-euro"></i></td>
+                                            <td>Варшава</td>
+                                            <td> + / +</td>
+                                            <td>8 - 12 ч</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Монтёр</td>
+                                            <td>10 - 12 <i class="fa fa-euro"></i></td>
+                                            <td>Познань</td>
+                                            <td> - / +</td>
+                                            <td>8 - 12 ч</td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Упаковщик/фасовщик</td>
+                                            <td> 8 - 10 <i class="fa fa-euro"></i></td>
+                                            <td>Лодзь</td>
+                                            <td> + / +</td>
+                                            <td>8 - 12 ч</td>
+                                        </tr>
+
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s-call inverse" id="s-form" style="background-image: url(img/docs.jpg);">
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-5 col-md-offset-7 col-sm-6 col-sm-offset-6">
+
+                        <form class="callback">
+
+                            <div class="success"><span>Спасибо за заявку!</span></div>
+
+                            <!-- Hidden Required Fields -->
+                            <input type="hidden" name="project_name" value="DMImmigration">
+                            <input type="hidden" name="admin_email" value="kor_ivan@inbox.ru">
+                            <input type="hidden" name="form_subject" value="Form Subject">
+                            <!-- END Hidden Required Fields -->
+
+                            <input type="hidden" name="Страница" value="">
+
+                            <div class="callback-logo"><img src="img/log1o.png" alt="DMImmigration"></div>
+                            <div class="formhead h2">Оставить заявку</div>
+                            <p>Оставьте заявку и мы перезвоним вам.</p>
+
+                            <input type="text" name="Имя" placeholder="Ваше имя..." required>
+                            <input type="text" name="Телефон" placeholder="Ваш телефон..." required>
+                            <button class="button button">Отправить</button>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="s-partners section-overlay" id="partners" style="background-image: url(img/bg4.jpg)">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-am-12">
+                        <h2 class="h2 text-center h-partners">Наши партнеры</h2>
+                        <div class="col-sm-10 col-sm-offset-1">
+                            <div class="owl-carousel partners">
+                                <div class="partner">
+                                    <a href="http://www.dkpartner.pl"> <img src="img/logoDkPartner.png"
+                                                                            alt="Партнёр"></a>
+                                </div>
+                                <div class="partner">
+                                    <a href="http://www.premiumjob.info"><img src="img/logoPJ.png" alt="Партнёр"></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <div id="my-footer">
+        <div class="main-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-sm-6 first-section">
+                        <div class="footer-column">
+                            <img src="img/log1o.png" alt="Консалтинговое агенство DMIImigrtaions" class="logo-footer">
+                            <p>Международное консалтинговое <br>агенство</p>
+                        </div>
+                        <div class="footer-social hidden-xs">
+                        <nav class="soc">
+                        <ul>
+                        <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-vk"></i></a></li>
+                        </ul>
+                        </nav>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-column">
+                            <p class="footer-addr">
+                                <i class="fa fa-location-arrow"></i> г.Астана, пр. Победы 72,<br> Бизнес-центр Альянс,
+                                офис
+                                316
+                            </p>
+                            <p class="footer-addr">
+                                <i class="fa fa-clock-o"></i> Время работы: Пн - Пт, <br> 10:00 - 18:00
+                            </p>
+                            <p class="footer-addr">
+                                <span class="footer-phone"><i class="fa fa-mobile"></i>+7(778) 750-53-46</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 hidden-xs hidden-md hidden-sm">
+                        <div class="footer-column">
+                            <p class="footer-addr">
+                                <i class="fa fa-location-arrow"></i> г.Шымкент, ул. Кунаева 59,<br> Бизнес-центр Астана
+                            </p>
+                            <p class="footer-addr">
+                                <i class="fa fa-clock-o"></i> Время работы: Пн - Пт, <br> 10:00 - 18:00
+                            </p>
+                            <p class="footer-addr">
+                                <span class="footer-phone"><i class="fa fa-mobile"></i>+7(707) 597-93-93</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-lg-6">
+                        <div class="footer-column">
+                            <div class="map">
+                                <script type="text/javascript" charset="utf-8" async
+                                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A01ceed71c9a7343dce397f7d0e5ad3fc4a83282fd129d200a5be20d0e8846967&amp;width=100%&amp;height=200&amp;lang=ru_RU&amp;scroll=true"></script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="top" title="Наверх"><i class="fa fa-angle-double-up"></i></div>
+
+<link rel="stylesheet" href="css/main.min.css">
+<script src="js/scripts.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
